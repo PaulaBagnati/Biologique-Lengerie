@@ -152,10 +152,8 @@ body{
 
 .card .card__btn button{
     width: 90%;
-    font-size: 1.15em; 
+    padding: 8px 10px;
     background-color: #763399;
-    color: #faf8f0;
-    padding: 7px 10px;
     border: none;
     border-radius: 10px;
     margin-top: 15px;
@@ -163,6 +161,12 @@ body{
     transform: scale(1);
     cursor: pointer;
 }
+
+.card .card__btn button a{
+    font-size: 1.5em; 
+    color: #faf8f0;
+    text-decoration: none;
+}   
 .card .card__btn button:hover{
     transform: scale(1.05);
 }
