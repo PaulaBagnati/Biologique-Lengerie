@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Soutien Sophie",
+        "price": 1700,
+        "description": "Si buscas un bralette de algodón que te brinde soporte y estilo sin dejar de ser elegante, este es el indicado.",
+        "stock": 5,
+        "category": "Soutien"
+    },
+    {
+        "id": 2,
+        "name": "Soutien Nina",
+        "price": 1599,
+        "description": "¡Te presentamos nuestro nuevo Top Maoni! Este hermoso Top  te hará sentir en confianza durante todo el día. Es perfecto para cualquier ocasión, ya sea que se vista elegante o informal. Hecho de material 100% cómodo, te sentirás más cómodo en tu propia piel. ¡No te pierdas este artículo imprescindible!",
+        "stock": 10,
+        "category": "Soutien"
+    },
+    {
+        "id": 3,
+        "name": "Vedettina Sophie",
+        "price": 750,
+        "description": "Las Vedettinas son la manera perfecta de hacerte lucir y sentirte sexy. Se ajustan cómodamente y su tela es extra suave, por lo que puedes usarlos todo el día sin sentirte apretada o incómoda. Ya sea que te estés vistiendo para salir de noche o quedándote en casa",
+        "stock": 4,
+        "category": "Vedettina"
+    },
+    {
+        "id": 4,
+        "name": "Vedettina Nina",
+        "price": 599,
+        "description": "Vedettina de material 100% cómodo, te sentirás más cómodo en tu propia piel. ¡No te pierdas este artículo imprescindible!",
+        "stock": 4,
+        "category": "Vedettina"
+    },
+    {
+        "id": 5,
+        "name": "Less Nina",
+        "price": 699,
+        "description": "Es el estilo perfecto para tu lado atrevido. Con un look más revelador y sexy, esta Less es perfecto para tus actividades diarias. Te hará lucir y sentirte genial.",
+        "stock": 6,
+        "category": "Less"
+    },
+    {
+        "id": 6,
+        "name": "Less Sophie",
+        "price": 499,
+        "description": "Este estilo conservador es perfecto para aquellas mujeres que quieren tener un look atemporal. Con su diseño simple y líneas limpias, seguramente se convertirá en uno de tus favoritos.",
+        "stock": 6,
+        "category": "Less"
+    }
+]

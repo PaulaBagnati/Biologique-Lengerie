@@ -1,13 +1,26 @@
-import React from 'react'
-import CartWidget from './component/CartWidget'
-import ItemListContainer from './component/ItemListContainer'
-import Navbar from './component/Navbar'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ItemListContainer from "./components/ItemListContainer";
+import ItemDetailContainer from "./components/ItemDetailContainer";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Cart from "./components/Cart";
 
 const App = () => {
   return (
     <>
+    <BrowserRouter>
       <Navbar/>
-      <ItemListContainer gretting = "Tenemos la misión de hacer del mundo un lugar más consiente mediante el diseño de productos que sean amigable con su cuerpo, su billetera y el planeta."/>
+
+      <Routes>
+
+      <Route exact path="/" element={<Home />} />
+      <Route exact path="/catalogo" element={<ItemListContainer />} />
+      <Route exact path="/category/:category" element={<ItemListContainer />} />    
+      <Route exact path="/item/:id" element={<ItemDetailContainer />} />
+      <Route exact path="/cart" element={<Cart />} />
+
+      </Routes>
+    </BrowserRouter>
     </>
   )
 }
