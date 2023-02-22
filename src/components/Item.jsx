@@ -1,5 +1,4 @@
 import React from 'react'
-import nina from "../assets/nina.jpg";
 import sophie from "../assets/sophie.jpg";
 import { Link } from "react-router-dom";
 const Item = ({ id, name, stock, category }) => {
