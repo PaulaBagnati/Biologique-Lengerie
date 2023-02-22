@@ -12,5 +12,5 @@
 
 #### Dale una vista al video, ahí te explicamos como es de facil adquirir tu BIOLOGIQUE. 
 
-<video src="public/gif.mp4" controls="controls" style="max-width: 500px;">
+<video src="src/assets/videoExplicativo.gif" controls="controls" style="max-width: 500px;">
 
